@@ -1,0 +1,110 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  background-size: 122%;
+  height: 120vh;
+  color: #ffffff;
+  font-family: 'roboto';
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .homeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    background-size: cover;
+    height: 100vh;
+    color: #ffffff;
+    font-family: 'roboto';
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.homeHeading {
+  font-size: 100px;
+  font-weight: 600;
+  margin-bottom: 7px;
+  display: flex;
+}
+
+.homeHeadingSm {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .homeHeading {
+    display: none;
+  }
+
+  .homeHeadingSm {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    display: flex;
+  }
+}
+
+.homeParagraph {
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+.homeParagraphSm {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .homeParagraphSm {
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    color: #f1f5f9;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .homeParagraph {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 0px;
+    display: none;
+  }
+}
+
+.findJobButton {
+  width: 130px;
+  height: 45px;
+  background-color: #6366f1;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .findJobButton {
+    width: 110px;
+    height: 38px;
+    background-color: #6366f1;
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+}

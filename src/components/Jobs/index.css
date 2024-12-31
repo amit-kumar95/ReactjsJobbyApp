@@ -1,0 +1,29 @@
+.jobContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 60px;
+  padding-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #000000;
+  background-size: cover;
+  height: 4680vh;
+}
+
+@media (max-width: 768px) {
+  .jobContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #000000;
+    background-size: cover;
+    height: 4680vh;
+  }
+}
